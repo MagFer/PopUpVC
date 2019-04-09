@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'PopUpVC'
   s.version          = '0.1.0'
   s.summary          = 'Custom PopUp View Controller.'
+  s.swift_version = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +22,14 @@ Pod::Spec.new do |s|
 TODO: The pop up contais a backgorund image and acceps a custom view. Logic can be added in the competions block related to dismiss of touch inside the main button.
                        DESC
 
-  s.homepage         = 'https://github.com/MagFer/PopUpVC'
+  s.homepage         = 'http://www.ianmagarzo.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ian Magarzo' => 'ian.magfer@gmail.com' }
-  s.source           = { :git => 'https://github.com/MagFer/PopUpVC', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/MagFer/PopUpVC.git', :tag => "v#{s.version}" }
+  # s.social_media_url = 'https://twitter.com/ianmagarzo'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'PopUpVC/Classes/**/*'
   
