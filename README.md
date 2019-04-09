@@ -22,7 +22,7 @@ pod 'PopUpVC'
 
 ## Author
 
-Ian Magarzo, ian.magarzo@futureplatforms.com
+Ian Magarzo, ian.magfer@gmail.com
 
 ## License
 

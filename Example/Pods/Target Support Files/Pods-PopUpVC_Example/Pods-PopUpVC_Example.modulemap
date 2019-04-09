@@ -1,0 +1,6 @@
+framework module Pods_PopUpVC_Example {
+  umbrella header "Pods-PopUpVC_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

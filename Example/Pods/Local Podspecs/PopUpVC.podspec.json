@@ -1,0 +1,22 @@
+{
+  "name": "PopUpVC",
+  "version": "0.1.0",
+  "summary": "A short description of PopUpVC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ian Magarzo/PopUpVC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ian Magarzo": "ian.magarzo@futureplatforms.com"
+  },
+  "source": {
+    "git": "https://github.com/Ian Magarzo/PopUpVC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PopUpVC/Classes/**/*"
+}

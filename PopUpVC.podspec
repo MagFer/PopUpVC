@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PopUpVC'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PopUpVC.'
+  s.summary          = 'Custom PopUp View Controller.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: The pop up contais a backgorund image and acceps a custom view. Logic can be added in the competions block related to dismiss of touch inside the main button.
                        DESC
 
-  s.homepage         = 'https://github.com/Ian Magarzo/PopUpVC'
+  s.homepage         = 'https://github.com/MagFer/PopUpVC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ian Magarzo' => 'ian.magarzo@futureplatforms.com' }
-  s.source           = { :git => 'https://github.com/Ian Magarzo/PopUpVC.git', :tag => s.version.to_s }
+  s.author           = { 'Ian Magarzo' => 'ian.magfer@gmail.com' }
+  s.source           = { :git => 'https://github.com/MagFer/PopUpVC', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

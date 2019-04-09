@@ -1,0 +1,6 @@
+framework module PopUpVC {
+  umbrella header "PopUpVC-umbrella.h"
+
+  export *
+  module * { export * }
+}
